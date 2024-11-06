@@ -1,0 +1,26 @@
+#Services{
+  background-color: var(--gray-100);
+  background-size: cover;
+  width: auto;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#Services div:first-child h3 {
+  font: var(--subtitle);
+  margin-bottom: 8px;
+}
+#Services div:first-child h2 {
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+#ServicesCards {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 54px 239px 120px 239px;
+  gap: 24px;
+  align-self: center;
+}

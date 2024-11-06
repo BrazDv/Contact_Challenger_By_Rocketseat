@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red: #E3646E;
+  --purple: #BB72E9;
+  --blue:#3996DB;
+  --green:#82BC4F;
+  --yellow:#EABD5F;
+  --gray-100:#0D0E11;
+  --gray-200:#16181D;
+  --gray-300:#292C34;
+  --gray-400:#878EA1;
+  --gray-500:#C0C4CE;
+  --gray-600:#E2E4E9;
+
+  --asap: "Asap",sans serif;
+  --title-lg: 700 56px/120% var(--asap);
+  --title-md: 700 24px/120% var(--asap);
+  --title-sm: 700 16px/120% var(--asap);
+
+  --inconsolata: "Inconsolata",sans serif;
+  --subtitle: 400 20px/120% var(--inconsolata);
+
+  --maven-pro: "Maven Pro",sans serif;
+  --text-md: 400 16px/140% var(--maven-pro);
+  --text-sm: 400 14px/140% var(--maven-pro);
+}
+.redtitle {
+  color: var(--red);
+}
+.skills {
+  background-color: var(--gray-300);
+  width: auto;
+  height: auto;
+  border-radius: 28px;
+  padding: 9px 16px;
+}
+.skills figcaption {
+  margin-left: 8px;
+}
+.Projects {
+  display: flex;
+  width: 330px;
+  height: 280px;
+  flex-direction: column;
+  background-color: var(--gray-300);
+  border-radius: 10px;
+}
+.Projects img {
+  margin: 12px 12px 20px 12px;
+  width: 306px;
+  height: 158px;
+  border-radius: 10px;
+}
+.Projects figcaption {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 12px 17px 12px;
+  
+}
+.Projects figcaption span:first-child{
+  margin: 4px 4px 8px 4px;
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+.Projects figcaption span:last-child{
+  margin: 0px 4px 4px 4px;
+  font: var(--text-sm);
+  color: var(--gray-500);
+}
+.ServicesTexts{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 155px;
+  border: 2px solid var(--gray-200);
+  border-radius: 10px;
+}
+.ServicesTexts:hover{
+  box-shadow: var(--gray-200) 1px 1px 5px;
+}
+.ServicesTexts img{
+  width: 48px;
+  height: 48px;
+  margin: 20px 212px 20px 20px;
+}
+.ServicesTexts figcaption {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px 20px 20px;
+
+}.ServicesTexts span:first-child{
+  text-align: start;
+  font: var(--title-sm);
+  color: var(--gray-600);
+  margin-bottom: 8px;
+}
+.ServicesTexts span:last-child{
+  text-align: start;
+  font: var(--text-sm);
+  color: var(--gray-500);
+
+}
+

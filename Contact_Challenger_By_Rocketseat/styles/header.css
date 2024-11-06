@@ -1,0 +1,69 @@
+header {
+  display: flex;
+  background-image: url(/Contact_Challenger_By_Rocketseat/assets/images/Background_Intro.png);
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+#Info {
+  margin: 120px 163px 0px 163px;
+}
+#Tags {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+}
+#Tags figure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+#Tags figure:nth-child(1) img {
+  color: red;
+}
+#Header {
+  flex-direction: column;
+  margin: 0px 180px 80px 180px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 680px;
+}
+#Header img:nth-child(2) {
+  margin: 0px 284px 56px 284px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: solid 2px var(--red);
+  padding: 4px;
+}
+#Header img:first-child {
+  position: absolute;
+  margin-top: 67px;
+  margin-left: 70px;
+}
+#Header h2{
+  margin-bottom: 8px;
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+#Header h1{
+  margin-bottom: 20px;
+  font: var(--title-lg);
+  color: var(--gray-600)
+}
+#Header p{
+
+  text-align: center;
+  color: var(--gray-400);
+  font: var(--text-sm)
+}
+#arrow {
+  margin: 94px 667px 57px 667px;
+}

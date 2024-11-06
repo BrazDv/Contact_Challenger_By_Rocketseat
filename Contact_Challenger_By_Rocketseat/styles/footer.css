@@ -1,0 +1,76 @@
+footer {
+  display: flex;
+  background-image: url(/Contact_Challenger_By_Rocketseat/assets/images/Background_Contacts.png);
+  background-size:cover;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+footer div:first-child {
+  margin: 128px 473px 48px 473px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+footer div:first-child  h3{
+  margin-bottom: 8px;
+  color: var(--purple);
+  font: var(--subtitle);
+}
+footer div:first-child  h2{
+  margin-bottom: 8px;
+  font: var(--title-md);
+  color: var(--gray-600);
+}
+footer div:first-child  p{
+  font: var(--text-md);
+  color: var(--gray-500);
+}
+#ContactButtons {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 320px;
+  gap: 16px;
+  margin-bottom: 200px;
+}
+#ContactButtons a {
+  background-color: var(--gray-300);
+  border-radius: 10px;
+  width: 400px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: border-color 0.3s, color 0.3s;
+  font: var(--text-md);
+  color: var(--gray-400);
+}
+
+#ContactButtons a:hover{
+  border: 1px solid;
+  border-color: #3996DB;
+}
+#ContactButtons a img{
+  margin: 20px 12px 20px 20px;
+  width: 28px;
+  height: 28px;
+  color: var(--gray-400);
+}
+#LinkedIn{
+  margin: 20px 50% 20px 0px;
+  text-decoration: none;
+}
+#GitHub {
+  margin: 20px 53% 20px 0px;
+}
+#E-mail {
+  margin: 20px 54% 20px 0px;
+}
+#WhatsApp {
+  margin: 20px 46% 20px 0px;
+}
